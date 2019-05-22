@@ -1,0 +1,6 @@
+docker pull devopsdockeruh/exec_bash_exercise
+docker run -d --name clocker devopsdockeruh/exec_bash_exercise
+docker exec -it clocker bash
+Secret message is:
+"Docker is easy"
+
