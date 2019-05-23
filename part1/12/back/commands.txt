@@ -1,0 +1,1 @@
+docker run -v $(pwd)/logs.txt:/usr/src/app/logs.txt -p 8000:8000 ex12back
