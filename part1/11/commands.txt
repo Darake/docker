@@ -1,0 +1,2 @@
+docker build -t ex11
+docker run -v $(pwd)/logs.txt:/usr/src/app/logs.txt -p 8000:8000 ex11
