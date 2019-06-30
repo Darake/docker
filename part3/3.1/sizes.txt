@@ -1,0 +1,2 @@
+frontend: 961MB -> 434MB
+backend: 1.12GB -> 337MB
