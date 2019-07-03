@@ -1,0 +1,9 @@
+# Can we docker it? Yes we can!
+
+Docker is the <i>new</i> cool kid in the block that everyone wants to play with and no wonder. With Dockerized applications, developers <i>(new or old)</i> can jump right into the project with minimal setup and start the whole development environment with a single command. The biggest strength being that the application will run exactly the same in every host machine. It's hard to come up with reasons not to use Docker.
+
+​	Let's compare the traditional route and the Docker route with a simple react, node, postgresql stack. In both cases the developer starts with cloning the client and server repositories. From there, the developer has to first install node to his machine. When done, the developer can install dependencies for client and server with `npm install`. This has to be done for both separately. After the set up for the client and server is done, the developer must install postgresql to the machine and do all the needed configuration. If he's lucky the configuration steps needed are documented in the readme. Now that everything is configured, we can start the stack by starting all the services manually.
+
+​	Compare this to the Docker route. Assuming the application has already the needed Docker files for development, we can start the process by running `docker-compose up`. That's it. That is all it takes to create containers, where everything needed is installed; services are configured and everything is started in an identical environment to all the other developers.
+
+​	These are only some of the benefits Docker or containerizing in general brings.  In sum, it's hard not to recommend Docker <i>(even for a hobby project)</i>.
